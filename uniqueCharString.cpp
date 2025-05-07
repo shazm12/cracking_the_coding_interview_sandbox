@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -16,4 +15,13 @@ bool uniqueCharString(string str) {
     char_set[char_val] = true;
   }
   return true;
+}
+
+void testUniqueCharString() {
+  cout << uniqueCharString("abcdef") << endl;
+}
+
+int main() {
+    testUniqueCharString();
+    return 0;
 }
