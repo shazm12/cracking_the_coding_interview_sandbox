@@ -16,8 +16,3 @@ bool uniqueCharString(string str) {
   }
   return true;
 }
-
-int main() {
-  cout << uniqueCharString("abcdef") << endl;
-  return 0;
-}
