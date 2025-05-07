@@ -16,6 +16,7 @@ private:
   int capacity;
   int size;
 
+  // dbj2 hash function
   int hash(int key) {
     string keyString = to_string(key);
     size_t hash = 5381;
