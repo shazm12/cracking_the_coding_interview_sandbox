@@ -16,12 +16,3 @@ bool uniqueCharString(string str) {
   }
   return true;
 }
-
-void testUniqueCharString() {
-  cout << uniqueCharString("abcdef") << endl;
-}
-
-int main() {
-    testUniqueCharString();
-    return 0;
-}
